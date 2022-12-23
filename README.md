@@ -1,38 +1,33 @@
 # UPE Attendance Tabulator
 
-Tabulates attendance for the Boston University chapter of Upsilon Pi Epsilon.
+Tabulates meeting attendance data for Boston University's chapter of Upsilon Pi Epsilon.
 
 ## Description
 
-Tabulates attendance for the Boston University chapter of Upsilon Pi Epsilon.
+I completed this project during my "provisional period" as a new inductee. Members can scan a QR code and submit a Google Form marking their attendance. My Google Apps Script program can quickly format the data so that it can be copy-pasted into a master spreadsheet.
 
 ## Getting Started
 
 ### Dependencies
 
-* Google Form
-
-### Installing
-
-* [TO ADD]
+None.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* Use this [link](https://drive.google.com/drive/folders/1Y9dGcUvnA7B85MmR0Sm6Le4wU_t6quJA?usp=sharing) to open a Google Drive folder with all the relevant files. For security reasons, the link only works for certain accounts.
+* For each new meeting, copy "UPE Weekly Attendance (Responses)". Copy "UPE Chapter Attendance Template". Link the latter with the former.
+* After the meeting open the copied responses spreadsheet. Under "Extensions" click "Apps Script". Run the program that appears.
+* You will find alphabetized attendance data after returning to the spreadsheet. Copy and paste this to the master spreadsheet. Adjust the point multiplier as desired.
+* This program relies on sorting members by their names. It is possible to modify it to work for new members. First, include the member's name as an option in the Google Form. Second, copy-paste their name into the "members" dictionary in the GAS script. Third, copy-paste their name into the correct position in the master spreadsheet to maintain alphabetical order.
 
 ## Version History
 
-* 0.1
+* 1.0
     * Initial Release
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## See Also
-
-* [Google Form Tabulator](https://github.com/sai-nayunipati/Google-Form-Tabulator)
+## Acknowledgments
+None.
