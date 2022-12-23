@@ -15,7 +15,7 @@ None.
 ### Executing program
 
 * Use this [link](https://drive.google.com/drive/folders/1Y9dGcUvnA7B85MmR0Sm6Le4wU_t6quJA?usp=sharing) to open a Google Drive folder with all the relevant files. For security reasons, the link only works for certain accounts.
-* For each new meeting, copy "UPE Weekly Attendance (Responses)". Copy "UPE Chapter Attendance Template". Link the latter with the former.
+* For each new meeting, duplicate "UPE Weekly Attendance (Responses)". This will automatically create a linked duplicate of the relevant Google Form.
 * After the meeting open the copied responses spreadsheet. Under "Extensions" click "Apps Script". Run the program that appears.
 * You will find alphabetized attendance data after returning to the spreadsheet. Copy and paste this to the master spreadsheet. Adjust the point multiplier as desired.
 * This program relies on sorting members by their names. It is possible to modify it to work for new members. First, include the member's name as an option in the Google Form. Second, copy-paste their name into the "members" dictionary in the GAS script. Third, copy-paste their name into the correct position in the master spreadsheet to maintain alphabetical order.
